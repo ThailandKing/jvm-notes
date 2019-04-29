@@ -1,4 +1,11 @@
-# jvm-notes
-- personal notes about jvm
-- <https://thailandking.github.io/jvm-notes/#/>
+# JVM学习笔记
+:tiger: 免费分享，一起进步，一起成长！
+
+
+
+<div align="center"> 
+    <img src="./favicon.png" width="150px"/>
+</div>
+
+<br/>
 

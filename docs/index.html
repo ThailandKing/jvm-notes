@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title></title>
+  <title>jvm-notes</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
+  <meta name="description" content="JVM学习笔记">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="icon" href="media/title.png" type="image/x-icon" />
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
 </head>
 <body>
@@ -13,16 +14,17 @@
   <script>
     window.$docsify = {
 	  themeColor: '#3F51B5',
-	  homepage: 'desc.md',
-	  search: 'auto',
-	  //coverpage: true,
+	  maxAge: 100,
+      maxLevel: 3,
       name: 'JVM学习笔记',
-      repo: 'https://github.com/ThailandKing',
-	  loadSidebar: true,
-	  alias: {
-      '/.*/_sidebar.md': '/_sidebar.md'
-		},
-	  subMaxLevel: 2
+      repo: 'https://github.com/ThailandKing/jvm-notes',
+	  search: {
+            paths: 'auto',
+            placeholder: '🔍 Type to search ',
+            noData: '😞 No Results! ',
+            depth: 2
+        },
+      coverpage: true,
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
